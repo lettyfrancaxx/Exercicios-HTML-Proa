@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang = "PT-BR">  
+
+	<head>	
+    <meta charset = "UTF-8"/>
+    <link rel= "icon" href= "paper.png" type = "image/x-icon">
+    <title> Informações Do Mentor </title>
+    </head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend> Dados Pessoais </legend>
+            <table>
+                <tr>
+                    <td>
+            <label for = 'nome'> Nome Completo:  </label>
+            <input type = 'text' name = 'nome' id = 'nome' required />
+			<label for = 'apelido'> Algum apelido que goste para você?  </label>
+            <input type = 'text' name = 'apelido' id = 'apelido' />                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+            <label for = 'cidade'> Cidade em que mora: </label>
+   			<input type = 'text' name= 'cidade' id = 'cidade' requirement/>
+            <label for = 'estado'> Estado em que mora: </label>
+   			<input type = 'text' name= 'estado' id = 'estado' requirement/>
+                    </td>
+                </tr>
+
+		        <tr>
+                    <td>
+            <label for = 'dataNascimento'> Data de Nascimento:  </label>
+            <input type = 'date' name = 'dataNascimento' />
+                    </td>
+                </tr>
+
+		        <tr>
+                    <td>
+            <label for ='formacao'> Formação:  </label>
+            <select name = "formacao" id = 'formacao'>
+            <option value="em"> Ensino Médio </option>
+            <option value="nt"> Nível Técnico </option>
+            <option value="ns"> Nível Superior </option>
+            </select>
+                    </td>
+                </tr>
+
+            </table>
+        </fieldset>
+
+	    <fieldset>
+            <legend> Informações De Contato </legend>
+		    <table>
+		        <tr>
+                    <td>
+        <label for = 'email'> E-mail: </label>
+        <input type = 'email' name = 'email' id = 'email' required/>
+        <label for = 'telefone'> Telefone (com DDD): </label>
+        <input type = 'tel' name = 'telefone' id = 'telefone'/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+        <label for = 'linkedin'> Link para o perfil no LinkedIn: </label>
+        <input type = 'linkedin' name = 'linkedin' id = 'linkedin' required/>
+        <label for = 'github'> Link para o perfil no GitHub: </label>
+        <input type = 'github' name = 'github' id = 'github' />
+                    </td>
+                </tr>
+
+		        <tr>
+                    <td>
+        <label for = 'instagram'> Link para o perfil no Instagram: </label>
+        <input type = 'instagram' name = 'instagram' id = 'instagram' />
+        <label for = 'facebook'> Link para o Facebook/Messenger: </label>
+        <input type = 'facebook' name = 'facebook' id = 'facebook' />
+                    </td>
+                </tr>
+
+		    </table>
+        </fieldset>
+
+        <fieldset>
+            <legend> Outros Dados </legend>
+            <table>
+                <tr>
+                    <td>
+        <label for='cargo'>Cargo Atual</label>
+        <input type="radio" name="cargo" value="1" checked /> Gerência
+        <input type="radio" name="cargo" value="2" /> Financeiro
+        <input type="radio" name="cargo" value="3" /> Recepção
+        <input type="radio" name="cargo" value="4" /> Administrativo
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+        <label>Área de atuação</label>
+        <input type="checkbox" name="interesse" value="1" checked> Gerência
+        <input type="checkbox" name="interesse" value="2"> Financeiro
+        <input type="checkbox" name="interesse" value="3"> Recepção </td>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>
+        <p> Sua maior inspiração: <textarea name="inspiração" cols="20" rows="5"></textarea></p>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+
+                <tr>
+                    <td>
+                        <input type="reset" value="Limpar" />
+                        <input type="submit" value="Enviar" />
+                    </td>
+                </tr>
+            </table>
+
+    </form>
+</body>
+
+</html>
